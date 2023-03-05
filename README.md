@@ -16,6 +16,33 @@ Este programa busca informações de perfil de usuário do GitHub através de su
 3. Digite o nome de usuário do GitHub que você deseja buscar as informações.
 4. O programa exibirá as informações de perfil filtradas e o nome dos repositórios públicos do usuário, se houver.
 
+### Exemplos de entrada e saída:
+
+**Exemplo real do dia 04-03-2023**
+```python
+Digite o nome de usuário do GitHub desejado: juniorcavicchioli
+Nome completo: Adilson Roberto Cavicchioli Junior
+Nome de usuário do GitHub: juniorcavicchioli
+Número de repositórios públicos: 10
+Nomes dos repositórios públicos: calculadora, challengeIBM, fibonacci, logica-segundo-semestre, menu, prova-segundo-semestre-logica, PyGitMonitor, PythonWeatherAPI, techbridge, WalkingDog
+```
+
+**Exemplo de um usuário inexistente**
+```python
+Digite o nome de usuário do GitHub desejado: inexistente
+O usuário inexistente não foi encontrado no GitHub.
+```
+
+**Exemplo inventado caso todas as informações que são requisitadas existirem**
+```python
+Digite o nome de usuário do GitHub desejado: timothee
+Nome completo: Timothée Ravier
+Nome de usuário do GitHub: timothee
+Bio: Passionate about Python, compilers, and making programming easier for everyone.
+Número de repositórios públicos: 3
+Nomes dos repositórios públicos: micropython, micropython-lib, rpyc
+```
+
 ## Contribuição
 Este projeto é de código aberto e aceita contribuições. Sinta-se à vontade para fazer um fork e enviar uma pull request com suas melhorias
 
