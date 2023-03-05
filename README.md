@@ -7,7 +7,7 @@ Este programa busca informações de perfil de usuário do GitHub através de su
 ## Instalação
 1. Clone este repositório ou faça o download dos arquivos.
 2. Abra o arquivo `busca_info_github.py` em um editor de texto.
-3. Insira sua chave de API do GitHub no lugar do texto `sua_chave_api` (variável [`api_key`](https://github.com/juniorcavicchioli/PyGitMonitor/blob/main/busca_info_github.py#L81) na linha 81).
+3. Insira sua chave de API do GitHub no lugar do texto `sua_chave_api` (variável [`api_key`](https://github.com/juniorcavicchioli/PyGitMonitor/blob/main/busca_info_github.py#L83) na linha 83).
 4. Salve e feche o arquivo.
 
 ## Como usar
