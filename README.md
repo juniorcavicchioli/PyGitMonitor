@@ -18,7 +18,7 @@ Este programa busca informações de perfil de usuário do GitHub através de su
 
 ### Exemplos de entrada e saída:
 
-**Exemplo real do dia 04-03-2023**
+Exemplo real do dia 04-03-2023
 ```python
 Digite o nome de usuário do GitHub desejado: juniorcavicchioli
 Nome completo: Adilson Roberto Cavicchioli Junior
@@ -27,13 +27,13 @@ Número de repositórios públicos: 10
 Nomes dos repositórios públicos: calculadora, challengeIBM, fibonacci, logica-segundo-semestre, menu, prova-segundo-semestre-logica, PyGitMonitor, PythonWeatherAPI, techbridge, WalkingDog
 ```
 
-**Exemplo de um usuário inexistente**
+Exemplo de um usuário inexistente
 ```python
 Digite o nome de usuário do GitHub desejado: inexistente
 O usuário inexistente não foi encontrado no GitHub.
 ```
 
-**Exemplo inventado caso todas as informações que são requisitadas existirem**
+Exemplo inventado caso todas as informações que são requisitadas existirem
 ```python
 Digite o nome de usuário do GitHub desejado: timothee
 Nome completo: Timothée Ravier
