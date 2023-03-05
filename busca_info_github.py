@@ -17,8 +17,10 @@ def get_user(usuario):
     except requests.exceptions.HTTPError as e:
         if e.response.status_code == 404: # Caso seja um erro 404 (Not Found)
             print(f'O usuário {usuario} não foi encontrado no GitHub.')
+            exit()
         else:
             print(f'Ocorreu um erro ao buscar o usuário {usuario}.')
+            exit()
     else:
         return resposta.json()
     
@@ -60,7 +62,7 @@ def filtro_dados(dados):
             'bio': bio, 'num_repositorios': num_repositorios}
 
 
-def exibir_usuario(repositorios, dados):
+def exibir_usuario(dados, repositorios):
     """
     Exibe as informações filtradas do perfil de um usuário do GitHub na saída padrão.
     Args:
@@ -84,4 +86,4 @@ url_padrao = "https://api.github.com"
 headers = {'Authorization': f'Token {api_key}'}
 
 # Programa principal 
-exibir_usuario(get_repos(usuario), filtro_dados(get_user(usuario)))
+exibir_usuario(filtro_dados(get_user(usuario)), get_repos(usuario))
